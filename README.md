@@ -10,9 +10,11 @@ We use **Vader sentiment analyzer, Mutual Information and Point-wise Mutual Info
 
 2. Read the data (.csv format) into **pandas dataframe**
 
-3. Use **Vader sentiment analyzer****bag-of-words model** (unigram)
+3. Use **Vader sentiment analyzer**
 
-4. Calculate **word frequency**, **mutual information** and **pointwise mutual information** for the unigrams to see how they relate with the review scores
+4. Build a **bag-of-words model** (unigram)
 
-5. **Visualize** the distribution of the ground-truth scores and Vader scores
-6. Discuss
+5. Calculate **word frequency**, **mutual information** and **pointwise mutual information** for the unigrams to see how they relate with the review scores
+
+6. **Visualize** the distribution of the ground-truth scores and Vader scores
+7. Discuss
