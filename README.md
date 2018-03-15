@@ -22,7 +22,7 @@ We use **Vader sentiment analyzer, Mutual Information and Point-wise Mutual Info
 ## Which words were most sentiment-bearing in the reviews?
 #### To explore this question, we will calculate the following 3 factors.
 1. Word Frequency
-<img src='pics/Picture1.png' width=320>
+<img src='pics/pic1.png' width=320>
 * It seems like the word frequency doesn't tell us anything about the context. There is no difference between the top-k word list for both positive reviews and negative reviews.
 
 If we think about it, this result seems obvious. If a customer was really satistied with breakfast, they would mention the word, 'breakfast', in their review. Even if a customer didn't like their breakfast, they also would mention the word, 'breakfast', in their review (with some bad words).
