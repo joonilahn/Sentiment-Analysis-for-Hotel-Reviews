@@ -29,8 +29,24 @@ We use **Vader sentiment analyzer, Mutual Information and Point-wise Mutual Info
 * If we think about it, this result seems obvious. If a customer was really satistied with breakfast, they would mention the word, 'breakfast', in their review. Even if a customer didn't like their breakfast, they also would mention the word, 'breakfast', in their review (with some bad words).
 
 ### 2. Mutual Information
-* **Mutual information** tells you how much you learn about X from knowing the value of Y (on average over the choice of Y).
+* *Mutual information* tells you how much you learn about X from knowing the value of Y (on average over the choice of Y).
 <img src='pics/pic2.png' width=480>
-Since we found the word frequency is not a good indicator for the sentiment analysis, we will examine *mutual information*  for an alternative metric.
+
+Since we found the word frequency is not a good indicator for the sentiment analysis, we will examine mutual information for an alternative metric.
 
 ### 3. Pointwise Mutual Information (PMI)
+* Let's see how Pointwise Mutual Information calculated. The PMI of a pair of outcomes x and y belonging to discrete random variables X and Y quantifies the discrepancy between the probability of their coincidence given their joint distribution and their individual distributions, assuming independence.
+* To study more about Pointwise Mutual Information, see [Wikipedia](https://en.wikipedia.org/wiki/Pointwise_mutual_information)
+<img src='https://wikimedia.org/api/rest_v1/media/math/render/svg/ff54cfce726857db855d4dd0a9dee2c6a5e7be99' width=480>
+
+<img src='pics/pic3.png' width=720>
+
+#### Pointwise Mutual Information seems like a good metric to summarize the reviews in n-gram tokens!
+#### By reading the n-gram tokens with high PMI scores for target variable, we can get a sense how much the reviewer did or didn't like the hotels. 
+
+## Visualization
+Sometimes, we can learn a lot about the data by visualizing.
+
+<img src='pics/pic4.png' width=720>
+
+<img src='pics/pic5.png' width=720>
