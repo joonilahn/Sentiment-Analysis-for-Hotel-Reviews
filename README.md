@@ -18,3 +18,12 @@ We use **Vader sentiment analyzer, Mutual Information and Point-wise Mutual Info
 
 6. **Visualize** the distribution of the ground-truth scores and Vader scores
 7. Discuss
+
+## Which words were most sentiment-bearing in the reviews?
+#### To explore this question, we will calculate the following 3 factors.
+1. Word Frequency
+* How
+<img src='pics/Picture1.png'>
+
+2. Mutual Information
+3. Pointwise Mutual Information (PMI)
