@@ -3,7 +3,9 @@
 This project is analyzing sentiment in hotel reviews using **Mutual Information** and **Vader Sentiment Analyzer**. We crawl hotel review data from Trip Advisor website by using a python script which can be downloaded at [here](https://github.com/aesuli/trip-advisor-crawler).
 
 We use **Vader sentiment analyzer, Mutual Information and Point-wise Mutual Information** to discover the relation between those metrics and ground-truth rating scores.
-See [Jupyter Notebook](./Sentiment Analysis - Hotel Reviews.ipynb)
+
+See [Jupyter Notebook](https://github.com/joonilahn/Sentiment-Analysis-for-Hotel-Reviews/blob/master/Sentiment%20Analysis%20-%20Hotel%20Reviews.ipynb)
+
 ## Pipeline
 
 1. Crawl hotel review data from Trip Advisor by using a python script ([click](https://github.com/aesuli/trip-advisor-crawler) to see how to use the script)
