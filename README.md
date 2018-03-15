@@ -23,7 +23,7 @@ We use **Vader sentiment analyzer, Mutual Information and Point-wise Mutual Info
 #### To explore this question, we will calculate the following 3 factors.
 1. Word Frequency
 * How
-<img src='pics/Picture1.png'>
+<img src='pics/Picture1.png', width=480>
 
 2. Mutual Information
 3. Pointwise Mutual Information (PMI)
