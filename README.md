@@ -47,6 +47,8 @@ Since we found the word frequency is not a good indicator for the sentiment anal
 ## Visualization
 Sometimes, we can learn a lot about the data by visualizing.
 
-<img src='pics/pic4.png' width=720>
+<img src='pics/pic4.png' width=1080>
 
-<img src='pics/pic5.png' width=720>
+
+
+<img src='pics/pic5.png' width=1080>
